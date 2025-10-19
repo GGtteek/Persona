@@ -1,13 +1,15 @@
 {
-  
   "VSCODE_SETTINGS": {
     "editor.stickyScroll.enabled": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
 
+    "window.density.editorTabHeight": "compact",
+
     "workbench.colorTheme": "One Dark Pro Night Flat",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
+    "workbench.activityBar.location": "top",
 
     "terminal.integrated.fontFamily": "'JetBrains Mono SemiBold', 'JetBrains Mono'",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -19,12 +21,13 @@
     "editor.fontSize": 12,
 
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+
+    "material-icon-theme.folders.theme": "specific"
   },
-  
+
   "GIT_PROMPT_PATH_REFERENCE": {
+    "icon": "💲",
     "path": "C:/Program Files/Git/etc/profile.d/git-prompt.sh"
   }
-  
 }
-
